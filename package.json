@@ -1,0 +1,31 @@
+{
+  "name": "animais-fantasticos",
+  "version": "1.0.0",
+  "description": "Animais Fantasticos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoMonteiro94/Animais-Fantasticos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoMonteiro94/Animais-Fantasticos/issues"
+  },
+  "homepage": "https://github.com/MarcoMonteiro94/Animais-Fantasticos#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "eslint": "^6.8.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7"
+  }
+}
